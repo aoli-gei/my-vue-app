@@ -3,7 +3,6 @@
     <el-card shadow="hover">
       <div class="text item">
         <p3>认证方式：</p3>
-        
     </div>
       <div class="text item">真实姓名：</div>
       <div class="text item">身份证号码：</div>

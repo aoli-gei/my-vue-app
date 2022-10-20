@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "dfggdsfgf",
+      "author": "asdgsg34egre",
+      "code": "200",
+      "msg": "成功"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "ppp": {
+    "code": 200,
+    "msg": "成功",
+    "data": [{
+      "id": 1,
+      "name": "dfggdsfgf",
+      "author": "asdgsg34egre"
+    }]
+  }
+}

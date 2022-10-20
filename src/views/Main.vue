@@ -5,7 +5,7 @@
       <common-aside />
       <el-container>
         <common-header />
-        <el-main>
+        <el-main class="main">
           <router-view />
         </el-main>
       </el-container>
@@ -25,9 +25,15 @@ export default defineComponent({
 </script>
 
 <style lang="less" scoped>
+.main{
+  height: 90vh;////
+  // background-color: white;
+}
 .el-container {
   flex-wrap: wrap;
   align-items: flex-start;
+  flex-basis: 0%;
+  // height: 100%;
 }
 .common-layout{
   height: 100%;

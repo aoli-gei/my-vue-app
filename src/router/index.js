@@ -19,10 +19,16 @@ const routes = [{
                 import ("../views/User/User.vue"),
         },
         {
-            path: "/user_m",
-            name: "user_m",
+            path: "/MyOrder",
+            name: "MyOrder",
             component: () =>
-                import ("../views/User/user_m.vue"),
+                import ("../views/User/MyOrder.vue"),
+        },
+        {
+            path:"/MyUser",
+            name:"MyUser",
+            component:() =>
+                import ("../views/MyUser/MyUser.vue")
         },
         {
             path: "/page1",
@@ -37,7 +43,14 @@ const routes = [{
                 import ("../views/Page2.vue"),
         },
     ],
-}, ];
+}, 
+{
+    path:'/login',
+    name:'login',
+    component:() => import("../views/Login/login.vue")
+}
+
+];
 
 const router = createRouter({
     history: createWebHashHistory(),

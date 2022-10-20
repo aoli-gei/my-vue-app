@@ -8,7 +8,7 @@
       :collapse="!$store.state.isCollapse"
       :collapse-transition="false"
     >
-      <h3 v-show="$store.state.isCollapse">后台管理</h3>
+      <h3 v-show="$store.state.isCollapse">网点后台管理</h3>
       <h3 v-show="!$store.state.isCollapse">后台</h3>
       <el-menu-item
         :index="item.path"
@@ -52,37 +52,39 @@ export default {
       {
         path: "/user",
         name: "user",
-        label: "用户管理",
+        label: "网点信息",
         icon: "user",
         url: "UserManage/UserManage",
       },
       {
-        path: "/user_m",
-        name: "user_m",
-        label: "用户信息",
+        path: "/MyOrder",
+        name: "MyOrder",
+        label: "人员管理",
         icon: "user",
         url: "UserManage/UserManage",
       },
       {
-        label: "其他",
+        label: "快件管理",
         icon: "location",
         path: "/other",
-        children: [
-          {
-            path: "/page1",
-            name: "page1",
-            label: "页面1",
-            icon: "setting",
-            url: "Other/PageOne",
-          },
-          {
-            path: "/page2",
-            name: "page2",
-            label: "页面2",
-            icon: "setting",
-            url: "Other/PageTwo",
-          },
-        ],
+        name: "MyUser",
+        url: "MyUser/MyUser",
+        // children: [
+        //   {
+        //     path: "/page1",
+        //     name: "page1",
+        //     label: "页面1",
+        //     icon: "setting",
+        //     url: "Other/PageOne",
+        //   },
+        //   {
+        //     path: "/page2",
+        //     name: "page2",
+        //     label: "页面2",
+        //     icon: "setting",
+        //     url: "Other/PageTwo",
+        //   },
+        // ],
       },
     ];
     const router = useRouter();

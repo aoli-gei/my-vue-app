@@ -33,8 +33,8 @@ export default {
     let store = useStore();
     const getImageUrl = (user) => {
       // 后面的是作为基准的位置，前面的是相对地址
-      console.log("test:../assets/images/${user}.png");
-      return new URL("../assets/images/${user}.png", import.meta.url).href;
+      // console.log("test:../assets/images/${user}.png");
+      return new URL("../assets/images/user.png", import.meta.url).href;//////
     };
     let handleCollapse = () => {
       // 调用vuex中的mutations

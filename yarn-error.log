@@ -1,0 +1,53 @@
+Arguments: 
+  D:\Nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add js-cookie
+
+PATH: 
+  E:\CUDA\bin;E:\CUDA\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\MATLAB\R2017b\runtime\win64;D:\MATLAB\R2017b\bin;E:\git\Git\cmd;D:\IDE v8.92\MPLAB C32 Suite\bin;D:\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;D:\《中国共产党党内统计系统》WEB单机版安装包和升级补丁20211123\MySql;D:\《中国共产党党内统计系统》WEB单机版安装包和升级补丁20211123\MySql\bin;D:\《中国共产党党内统计系统》WEB单机版安装包和升级补丁20211123\env\openjdk8\bin;D:\《中国共产党党内统计系统》WEB单机版安装包和升级补丁20211123\;D:\《中国共产党党内统计系统》WEB单机版安装包和升级补丁20211123\env\openjdk8\jre\bin;D:\Xshell\;D:\Xftp\;D:\Nodejs\;E:\Anaconda\anaconda;E:\Anaconda\anaconda\Library\mingw-w64\bin;E:\Anaconda\anaconda\Library\usr\bin;E:\Anaconda\anaconda\Library\bin;E:\Anaconda\anaconda\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python38\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\bin;E:\Python\PyCharm Community Edition 2020.2.1\bin;D:\《中国共产党党内统计系统》WEB单机版安装包和升级补丁20211123\env\Redis;C:\Users\ASUS\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.22.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)
+
+npm manifest: 
+  {
+    "name": "my-vue-app",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@element-plus/icons-vue": "^2.0.9",
+      "axios": "^1.0.0",
+      "element-plus": "^2.2.17",
+      "less": "^4.1.3",
+      "mockjs": "^1.1.0",
+      "unplugin-auto-import": "^0.11.2",
+      "unplugin-vue-components": "^0.22.8",
+      "vue": "^3.2.37",
+      "vue-router": "^4.1.5",
+      "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^3.1.0",
+      "vite": "^3.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

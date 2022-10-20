@@ -11,5 +11,6 @@ import HelloWorld from './components/HelloWorld.vue'
 <style>
   #app{
     height: 100%;
+    overflow:hidden;
   }
 </style>
