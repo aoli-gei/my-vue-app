@@ -69,22 +69,6 @@ export default {
         path: "/other",
         name: "MyUser",
         url: "MyUser/MyUser",
-        // children: [
-        //   {
-        //     path: "/page1",
-        //     name: "page1",
-        //     label: "页面1",
-        //     icon: "setting",
-        //     url: "Other/PageOne",
-        //   },
-        //   {
-        //     path: "/page2",
-        //     name: "page2",
-        //     label: "页面2",
-        //     icon: "setting",
-        //     url: "Other/PageTwo",
-        //   },
-        // ],
       },
     ];
     const router = useRouter();
